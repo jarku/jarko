@@ -1,0 +1,71 @@
+body {
+  color: #DEE5E5;
+  background-color: #1d1e1f;
+}
+
+footer {
+  text-align: center;
+}
+
+.navbar .navbar-brand {
+  color: #DEE5E5;
+}
+
+.navbar .navbar-toggler {
+  padding: 0.20rem .20rem;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.button-icon {
+  display: block;
+  width: 24px;
+  height: 4px;
+  border-radius: 3px;
+  background-color: #DEE5E5;
+}
+
+.intro-section {
+  padding-top: 350px;
+  padding-bottom: 350px;
+}
+
+@media (max-width: 768px){
+  .intro-section {
+    padding-top: 320px;
+    padding-bottom: 320px;
+  }
+}
+
+.main-container {
+  text-align: center;
+  background-attachment: scroll;
+  background-image: url(../images/main-bg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.social-buttons {
+
+}
+
+ul.social-buttons li a {
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color: #DEE5E5;
+  -webkit-transition: font-size 0.5s; /* For Safari 3.1 to 6.0 */
+  transition: font-size 0.5s;
+}
+
+ul.social-buttons li a:hover {
+  font-size: 30px;
+}
