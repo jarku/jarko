@@ -13,8 +13,11 @@ jQuery(document).ready(function($) {
         new_section.fadeIn( 1000 );
       } );
     }
-    $('.navbar-collapse-fix').collapse('toggle');
-    $('.nav-icon3').removeClass('open');
+    if($("button", '.mainMenu').hasClass('open')) {
+      $('.navbar-collapse-fix').collapse('toggle');
+      $('.nav-icon3').removeClass('open');
+    }
+
     return false;
   });
 
